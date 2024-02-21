@@ -11,10 +11,9 @@ const Shop = () => {
                 <h1> Ecommerce Shopping </h1>
             </div>
             <div className='products'>
-                {Products.map((products)=>
-                ( 
-
-                    <Product data={products}/>
+                {Products.map((product) =>
+                (
+                    <Product data={product} />
                 )
                 )}
             </div>
